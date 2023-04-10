@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/vite.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["./src/*"]
+    },
+    "types": ["mdx"]
+  }
+}
