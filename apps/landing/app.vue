@@ -14,6 +14,7 @@
         Button1
       </Button>
     </div>
-    <!-- <NuxtWelcome /> -->
+    <!--  -->
   </div>
+  <NuxtPage />
 </template>

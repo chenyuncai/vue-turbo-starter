@@ -5,10 +5,10 @@
 			"path": "."
 		},
 		{
-			"path": "apps/storybook"
+			"path": "apps/admin-fe"
 		},
 		{
-			"path": "apps/nuxt"
+			"path": "apps/landing"
 		},
 		{
 			"path": "packages/eslint-config",
