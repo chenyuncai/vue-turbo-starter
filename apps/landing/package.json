@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "prepare": "nuxi prepare",
-    "dev": "nuxi dev",
+    "dev": "nuxi dev --port 5002",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
