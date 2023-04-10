@@ -8,7 +8,6 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "simple-git-hooks",
     "release": "tsx scripts/release.ts",
     "start:apps": "turbo run start --parallel --filter='./apps/*'",
     "start:nuxt-app": "turbo run start --filter nuxt-app",
@@ -29,7 +28,6 @@
     "prettier": "2.8.7",
     "prompts": "2.4.2",
     "semver": "7.3.8",
-    "simple-git-hooks": "2.8.1",
     "tsx": "3.12.6",
     "turbo": "1.8.8",
     "typescript": "5.0.3"
@@ -37,10 +35,6 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=7"
-  },
-  "simple-git-hooks": {
-    "pre-push": "pnpm lint",
-    "commit-msg": "pnpm exec tsx scripts/verifyCommit.ts $1"
   },
   "packageManager": "pnpm@8.1.1",
   "pnpm": {
